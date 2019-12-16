@@ -30,4 +30,4 @@ int main(){
 		printf("after after g=%d,s=%d,k=%d\n",g,s,k);
 		//return 0;
 	}
-}s
+}
