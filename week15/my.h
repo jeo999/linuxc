@@ -4,7 +4,7 @@
 #include<pthread.h>
 #include<string.h>
 #include<errno.h>
-#include<sys/tpes.h>
+#include<sys/types.h>
 
 #define LOOP 10000000
 #define NUM 4

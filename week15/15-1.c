@@ -14,7 +14,7 @@ void *fun(void *param)
 		pthread_mutex_unlock(&mutex);
 	}
 	pthread_mutex_unlock(&mutex);
-	return NULL:
+	return NULL;
 }
 
 int main()
@@ -34,7 +34,7 @@ int main()
 		ret=pthread_create(&tid[i],NULL,fun,NULL);
 		if(ret!=0)
 		{
-			peeror("thread create failed!\n");
+			perror("thread create failed!\n");
 			exit(2);
 		}
 	}
